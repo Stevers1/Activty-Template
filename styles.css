@@ -5,6 +5,10 @@ body {
   background-color: #191765;
   color: white;
   font-family: 'Roboto', sans-serif;
+  background-image: url("/images/Ellipse\ 18@2xleft.png");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  margin: 0;
 }
 
 .name-intro{
@@ -68,6 +72,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-self:flex-end;
+  background-image: url("/images/Ellipse\ 19@2x.png");
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .skills2 {
@@ -92,3 +99,37 @@ body {
   font-size: 12px;
   line-height: 24px;
 }
+
+.social{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.workarrow {
+
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.arrow{
+  width: 15px;
+  height: 10px;
+  padding-right: 5px;
+}
+
+.pwork{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #A2A3AE;
+}
+
+.logo-placeholder {
+
+  padding-left: 15px;
+}
+
