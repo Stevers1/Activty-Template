@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-
   background-color: #191765;
   color: white;
   font-family: 'Roboto', sans-serif;
@@ -11,15 +10,13 @@ body {
   margin: 0;
 }
 
-.name-intro{
-  font-weight: 700;
+.name-intro {
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 72px;
-  color: #7D73FC;
+  color: #7d73fc;
   padding-bottom: 3vh;
-
 }
 
 .intro {
@@ -27,7 +24,6 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
-
 }
 
 .profesion {
@@ -35,9 +31,8 @@ body {
   font-weight: 500;
   font-size: 32px;
   line-height: 138%;
-  color: #EDECFF;
+  color: #edecff;
   padding-bottom: 9vh;
-  
 }
 
 .app-bar {
@@ -47,19 +42,16 @@ body {
   margin-bottom: 40px;
 }
 
-.bio{
-
-  font-family: 'Roboto';
+.bio {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  color: #C8C8D4;
+  color: #c8c8d4;
   padding: 0 25px 30px 25px;
 }
 
 .divider {
-
   width: 370px;
   height: 0;
   border: 1px solid grey;
@@ -68,39 +60,36 @@ body {
 
 .skills {
   padding-top: 40px;
-  padding-bottom:50px ;
+  padding-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
-  align-self:flex-end;
+  align-self: flex-end;
   background-image: url("/images/Ellipse\ 19@2x.png");
   background-repeat: no-repeat;
   background-position: right;
 }
 
 .skills2 {
-
   flex: 40%;
   padding-left: 40px;
-  
 }
 
-.list, li {
-
+.list,
+li {
   list-style: none;
   padding: 0;
   line-height: 2;
-  
 }
 
 .tskill {
-  color: #9490FF;
+  color: #9490ff;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
 }
 
-.social{
+.social {
   display: flex;
   justify-content: center;
   padding-top: 30px;
@@ -108,28 +97,25 @@ body {
 }
 
 .workarrow {
-
   display: flex;
   justify-content: center;
   align-items: baseline;
 }
 
-.arrow{
+.arrow {
   width: 15px;
   height: 10px;
   padding-right: 5px;
 }
 
-.pwork{
+.pwork {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 32px;
-  color: #A2A3AE;
+  color: #a2a3ae;
 }
 
 .logo-placeholder {
-
   padding-left: 15px;
 }
-
